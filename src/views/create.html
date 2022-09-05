@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/asset/css/create.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="app">
+      <div class="nav">Tạo tài khoản</div>
+      <a href="/"><button class="btn-primary" type="submit">Hủy</button></a>
+      <div class="form-create">
+        <form action="/create" method="post">
+          <div>
+            <label for="">Tên thành phố</label>
+            <input type="text" name="name" required />
+          </div>
+          <div>
+            <label for="">Quốc gia</label>
+            <input type="text" name="country" required />
+          </div>
+          <div>
+            <label for="">Diện tích</label>
+            <input type="number" name="area" required />
+          </div>
+          <div>
+            <label for="">Dân số</label>
+            <input type="number" name="population" required />
+          </div>
+          <div>
+            <label for="">Mô tả thành phố</label>
+            <input type="text" name="description" required />
+          </div>
+
+          <button type="reset" class="btn-primary loat-left">Reset</button>
+          <div class="form-reset">
+            <button type="submit" class="btn-reset">Tạo</button>
+          </div>
+        </form>
+      </div>
+      <div class="nav nav-bottom"></div>
+    </div>
+  </body>
+</html>

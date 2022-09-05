@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/asset/css/home.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="app">
+      <a href="/create"
+        ><button class="btn-primary loat-left" type="submit">
+          Thêm mới thành phố
+        </button></a
+      >
+      <div class="nav">Thông tin thành phố</div>
+      <table class="score">
+        <thead class="description">
+          <tr>
+            <th class="subject">STT</th>
+            <th class="subject-name">Thành phố</th>
+            <th class="subject-name">Quốc gia</th>
+            <th>
+              <input
+                type="text"
+                name="search"
+                id="search"
+                placeholder="Nhập tên thành phố"
+              />
+            </th>
+          </tr>
+        </thead>
+        <tbody class="details">
+          {change}
+        </tbody>
+      </table>
+    </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</html>

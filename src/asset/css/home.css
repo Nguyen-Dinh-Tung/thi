@@ -1,0 +1,174 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app{
+  position: relative;
+}
+.nav{
+  height: 68px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 68px;
+  font-size: 30px;
+}
+
+.score{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  flex-direction: column;
+  margin: auto;
+
+}
+
+
+.subject ,.subject-name {
+  background-color: aquamarine;
+  width: 200px ;
+  height: 40px;
+}
+.subject{
+  font-size: 26px;
+}
+.subject-name{
+  font-size: 20px;
+  text-align: center;
+}
+.details td{
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  background-color: azure;
+}
+.details td:last-child{
+  background-color: rgb(94, 185, 185);;
+}
+.avg-score{
+  background-color: rgb(82, 187, 187);
+  font-size: 20px;
+}
+.btn-primary{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: calc(100%/7);
+  height: 68px;
+  font-size: 22px;
+  background-color: rgb(49, 116, 116);
+  border-radius: 6px;
+  color: white;
+}
+.loat-left{
+  top: 0;
+  left: 0;
+}
+.btn-primary:hover ,.btn-fromManager:hover{
+  cursor: pointer;
+  background-color: rgb(121, 121, 103);
+}
+.btn-fromManager , .btn{
+  background-color: rgb(49, 116, 116);
+  width: 100%;
+  height: 100%;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.edit{
+  width: 1012px;
+  display: flex;
+}
+.edit input{
+  width: 50%;
+  height: 40px;
+  font-size: 18px;
+  margin: 10px 10px;
+  padding-left: 6px;
+}
+.edit button {
+  width: 160px;
+  background-color: rgb(60, 105, 105);
+  cursor: pointer;
+  border: none;
+}
+.edit button:hover{
+  background-color: rgb(121, 121, 103);
+}
+.chat{
+  position: fixed;
+  right: 0;
+}
+.message{
+  width: 274px;
+  height: 40px;
+  font-size: 16px;
+  padding-left: 6px;
+  outline: none;
+  border: none;
+  background: aquamarine;
+  border-radius: 6px;
+}
+.btn-message{
+  width: 108px;
+  height: 40px;
+  border: none;
+  font-size: 16px;
+}
+.btn-send:hover{
+  background-color: rgb(49, 116, 116);
+  cursor: pointer;
+}
+.input-edit-details{
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  padding-left: 6px;
+}
+#search{
+  width: 400px;
+  height: 40px;
+  padding-left: 12px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+}
+.content-chat{
+  width: 400px;
+  height: 680px;
+  background-color: azure;
+}
+.btn-send , .btn-search-chat{
+  height: 40px;
+  width: 200px;
+  background-color: aquamarine;
+  border: none;
+  cursor: pointer;
+}
+.search-users-chat {
+  height: 40px;
+  width: 200px;
+  font-size: 18px;
+  padding-left: 8px;
+}
+li {
+  list-style: none;
+}
+.edit-form{
+  height: 40px;
+  width: 200px;
+  font-size: 18px;
+  padding-left: 6px;
+}
+.btn-edit{
+  height: 40px;
+  width: 200px;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: rgb(49, 116, 116);
+  border: none;
+}

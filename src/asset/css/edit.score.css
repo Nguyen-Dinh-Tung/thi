@@ -1,0 +1,145 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app{
+  position: relative;
+}
+.nav{
+  height: 68px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 68px;
+  font-size: 30px;
+}
+
+.score{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  flex-direction: column;
+  margin: auto;
+
+}
+
+
+.subject ,.subject-name {
+  background-color: aquamarine;
+  width: 200px ;
+  height: 40px;
+}
+.subject{
+  font-size: 26px;
+}
+.subject-name{
+  font-size: 20px;
+  text-align: center;
+}
+.details td{
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  background-color: azure;
+}
+.details td:last-child{
+  background-color: rgb(94, 185, 185);;
+}
+.avg-score{
+  background-color: rgb(82, 187, 187);
+  font-size: 20px;
+}
+.btn-primary{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: calc(100%/7);
+  height: 68px;
+  font-size: 22px;
+  background-color: rgb(49, 116, 116);
+  border-radius: 6px;
+  color: white;
+}
+.loat-left{
+  top: 0;
+  left: 0;
+}
+.btn-primary:hover ,.btn-fromManager:hover{
+  cursor: pointer;
+  background-color: rgb(121, 121, 103);
+}
+.btn-fromManager{
+  background-color: rgb(49, 116, 116);
+  width: 100%;
+  height: 100%;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.edit{
+  width: 1012px;
+  display: flex;
+}
+.edit input{
+  width: 50%;
+  height: 40px;
+  font-size: 18px;
+  margin: 10px 10px;
+  padding-left: 6px;
+}
+.edit button {
+  width: 160px;
+  background-color: rgb(60, 105, 105);
+  cursor: pointer;
+  border: none;
+}
+.edit button:hover{
+  background-color: rgb(121, 121, 103);
+}
+.chat{
+  position: fixed;
+  right: 0;
+}
+.input-message{
+  width: 274px;
+  height: 40px;
+  font-size: 16px;
+  padding-left: 6px;
+  outline: none;
+  border: none;
+  background: aquamarine;
+  border-radius: 6px;
+}
+.btn-message{
+  width: 108px;
+  height: 40px;
+  border: none;
+  font-size: 16px;
+}
+.btn-message:hover{
+  background-color: rgb(49, 116, 116);
+  cursor: pointer;
+}
+.input-edit-details{
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  padding-left: 6px;
+}
+.input-edit-scores,.btn-edit-scores{
+  height: 34px;
+  width: 202px;
+  padding-left: 8px;
+  font-size: 18px;
+  border: none;
+}
+.btn-edit-scores{
+  cursor: pointer;
+  background-color: rgb(49, 116, 116);
+}
+.btn-edit-scores:hover{
+  background-color: rgb(121, 121, 103)
+}
